@@ -1,0 +1,244 @@
+body {
+  font-family: "Cairo" !important;
+  background: linear-gradient(180deg, #ffffff 0%, #eed2ff 77.16%);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 3rem !important;
+  font-weight: bolder;
+  color: #1e1e1e;
+}
+h2 {
+  font-size: 2rem;
+  color: #1e1e1e;
+  font-weight: 800 !important;
+}
+h3 {
+  font-size: 18px !important;
+  color: #262626 !important;
+  font-weight: bolder !important;
+}
+h4 {
+  font-size: 12px !important;
+  color: #a006fe !important;
+}
+h5 {
+  font-size: 18px !important;
+  font-weight: bolder !important;
+  color: #a006fe !important;
+}
+
+p {
+  color: #808080;
+}
+.btn-1,
+.btn-2 {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.btn-1 {
+  background-color: #fafafa;
+  color: #a006fe;
+  border-radius: 50px;
+}
+.btn-2 {
+  background-color: #a006fe;
+  color: #ffffff;
+  border-radius: 50px;
+}
+.btn-general {
+  border-radius: 10px;
+}
+.btn-1:hover {
+  background-color: #a006fe;
+  color: white;
+}
+.btn-2:hover {
+  background-color: white;
+  color: #a006fe;
+  border: 1px solid #a006fe;
+}
+.logo {
+  background-clip: text;
+  font-weight: 700;
+  font-size: 19px !important;
+  color: transparent;
+  background: linear-gradient(90deg, #a006fe 0%, #000000 23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#hero {
+  background-image: url(./Image/Bg.png);
+}
+#hero img {
+  height: 450px !important;
+}
+.card img {
+  width: 43px;
+}
+#con .service p {
+  font-size: 14px;
+}
+#choose .number {
+  /* width: 30px;
+  height: 30px; */
+  padding: 5px 15px;
+  font-size: 1.3rem !important;
+  border-radius: 50%;
+  background: #382c28;
+  color: #ffffff;
+}
+#pricing b {
+  color: #382c28;
+  font-size: 2rem;
+  font-weight: 800 !important;
+}
+#pricing sub {
+  font-size: 12px;
+  color: #000000;
+}
+#pricing .sub span {
+  font-size: 15px;
+  line-height: 1;
+}
+#pricing .sub i {
+  color: #382c28;
+  line-height: 1px !important;
+  margin-right: 10px;
+}
+#pricing .card {
+  background: linear-gradient(180deg, #ead1f9 0%, #ffffff 100%);
+  height: 420px;
+}
+#pricing button {
+  width: 240px;
+  margin-top: 50px;
+  bottom: 10px;
+  background: #a006fe;
+  border: none;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+#subscribe .container {
+  background: #a006fe;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#subscribe .container h1 {
+  font-size: 2rem !important;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+#subscribe input {
+  width: 500px !important;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#subscribe button {
+  position: absolute;
+  border-radius: 5px;
+  top: 6px;
+  right: 4px;
+  padding: 5px 15px;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+}
+#subscribe input:focus {
+  outline: none;
+}
+footer .container {
+  display: flex;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+footer b {
+  color: #a006fe;
+}
+footer h5 {
+  color: white !important;
+}
+.newslater input {
+  width: 300px !important;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+.newslater button {
+  border: none;
+  top: 1px;
+  right: 21px;
+  background: #a006fe;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 526px) {
+  br {
+    display: none;
+  }
+
+  #pricing button {
+    width: 220px;
+    left: 12px;
+  }
+  #subscribe input {
+    width: 300px !important;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .newslater button {
+    border: none;
+    top: 1px;
+    right: 70px;
+  }
+  #subscribe .container h1 {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  br {
+    display: none;
+  }
+  #pricing button {
+    width: 200px;
+    left: 12px;
+  }
+  .newslater button {
+    border: none;
+    top: 1px;
+    right: 30px;
+  }
+  #subscribe .container h1 {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 1023px) {
+  br {
+    display: none;
+  }
+  #pricing button {
+    width: 200px;
+    left: 12px;
+  }
+}
