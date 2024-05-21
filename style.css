@@ -227,18 +227,36 @@ footer h5 {
   .newslater button {
     border: none;
     top: 1px;
-    right: 30px;
+    right: 5px !important;
   }
   #subscribe .container h1 {
     font-size: 1rem !important;
   }
+  .newslater input {
+  width: 100% !important;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
 }
-@media screen and (max-width: 900px)  {
+}
+@media screen and (max-width: 900px) {
   br {
     display: none;
   }
   #pricing button {
-    width: 200px;
+    width: 90% !important;
     left: 12px;
+  }
+  .newslater {
+    width: 350px !important;
+  }
+  .newslater button {
+    border: none;
+    top: 1px;
+    right: 55px;
+    background: #a006fe;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
   }
 }
